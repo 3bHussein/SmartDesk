@@ -1,0 +1,18 @@
+# SmartDesk 1.0.9.5
+
+## QR generator improvements
+- Uses high error correction (H) to improve resilience to minor image degradation.
+- Enlarges the QR preview area.
+- Displays the generated QR image at native resolution.
+- Preserves the four-module quiet zone.
+- Renders QR modules through Qt image painting.
+
+## Other
+- Keeps the existing SmartDesk features, local database and settings.
+- Preserves the legacy `%APPDATA%\\WorldClock` data location for compatibility.
+
+## Build
+Run `Install.bat` on Windows with Python 3.11+.
+The executable is created at `dist\\SmartDesk_1.0.9.5\\SmartDesk.exe`.
+
+Note: this repository package contains source code and build instructions; it does not include a prebuilt Windows executable.

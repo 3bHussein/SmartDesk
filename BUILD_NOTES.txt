@@ -1,0 +1,3 @@
+SmartDesk 1.0.9.5 source release.
+Build on Windows with Python 3.11+ by running Install.bat.
+The application keeps its legacy WorldClock app-data folder for upgrade compatibility.
